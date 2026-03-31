@@ -29,10 +29,11 @@ python src/train.py
 python src/predict.py --sleep 6 --study 7 --screen 8 --caffeine 3 --exercise 1
 ```
 You will get output like:
+```bash
 Your predicted stress level is: HIGH
 Confidence: 82%
+```
 ### What I used
-
 Python 3
 pandas
 scikit-learn (Random Forest and Logistic Regression)
